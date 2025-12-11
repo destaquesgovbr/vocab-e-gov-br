@@ -37,7 +37,8 @@ document.addEventListener('alpine:init', () => {
       try {
         this.loading = true;
         const basePath = document.querySelector('meta[name="base-url"]')?.content || '';
-        const response = await fetch(`${basePath}data/vcge-2011-tree.json`);
+        const dataFile = document.querySelector('meta[name="vcge-data"]')?.content || 'vcge-2011-tree.json';
+        const response = await fetch(`${basePath}data/${dataFile}`);
         if (!response.ok) throw new Error('Falha ao carregar dados');
         this.treeData = await response.json();
         this.filteredData = this.treeData;

@@ -1,8 +1,9 @@
-# Explorador VCGE
+# Explorador VCGE 2.0.3
 
 <meta name="base-url" content="/vocab-e-gov-br/">
+<meta name="vcge-data" content="vcge-203-tree.json">
 
-Navegue pela árvore hierárquica do **Vocabulário Controlado de Governo Eletrônico (VCGE)** com busca e filtro em tempo real.
+Navegue pela árvore hierárquica do **VCGE 2.0.3** (116 termos) - versão mais recente e simplificada.
 
 <div x-data="vcgeTree()" x-init="init()" class="vcge-explorer">
 
@@ -234,18 +235,19 @@ Navegue pela árvore hierárquica do **Vocabulário Controlado de Governo Eletr�
 
 ---
 
-## Sobre o VCGE
+## Sobre esta versão
 
-O **VCGE** (Vocabulário Controlado do Governo Eletrônico) é um esquema para ser utilizado no elemento `assunto.categoria` (subject.category) do Padrão de Metadados do Governo Eletrônico (e-PMG).
+O **VCGE 2.0.3** é a versão mais recente e simplificada do Vocabulário Controlado do Governo Eletrônico, contendo **116 termos** organizados em **23 categorias** de primeiro nível.
 
-Termos retirados do VCGE tornam mais direta, para os gerentes de sítios e portais governamentais, a apresentação dos serviços disponibilizados em uma estrutura de diretório baseada nos indexadores do VCGE.
+- **Namespace URI:** `http://vocab.e.gov.br/id/governo`
+- **Diferenças do VCGE 2011:** Hierarquia mais plana, termos atualizados, estrutura simplificada
 
-O VCGE ajuda os cidadãos a encontrar informações mesmo sem o conhecimento de qual órgão o assunto é responsabilidade.
+### Downloads
 
-### Formatos disponíveis
+| Formato | Download |
+|---------|----------|
+| JSON (árvore) | [vcge-203-tree.json](data/vcge-203-tree.json) |
 
-| Formato | Descrição | Download |
-|---------|-----------|----------|
-| JSON | JavaScript Object Notation | [vcge-2011.json](data/vcge-2011-tree.json) |
-| RDF/N3 | Notation 3 | [vcge.n3](data/vcge-2011.n3) |
-| RDF/XML | XML serialization | [vcge.rdf](data/vcge-2011.rdf) |
+### Versão completa
+
+Para a versão completa com **1623 termos**, use o [Explorador VCGE 2011](vocabularios/vcge-explorer.md).
