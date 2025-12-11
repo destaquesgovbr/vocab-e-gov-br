@@ -1,6 +1,6 @@
 # Explorador VCGE
 
-<meta name="base-url" content="">
+<meta name="base-url" content="/vocab-e-gov-br/">
 
 Navegue pela árvore hierárquica do **Vocabulário Controlado de Governo Eletrônico (VCGE)** com busca e filtro em tempo real.
 
