@@ -172,6 +172,15 @@ print(f"Total de termos: {len(labels)}")
 
 ## Exemplo: Integração com LangChain
 
+Este exemplo demonstra como usar o VCGE para criar um **índice vetorial de busca semântica** com LangChain e FAISS. O código:
+
+1. Carrega a hierarquia completa do VCGE (1623 termos)
+2. Transforma cada termo em um documento com metadados (URI, caminho hierárquico, nível)
+3. Gera embeddings usando OpenAI e indexa no FAISS
+4. Permite buscar termos semanticamente relacionados a uma query
+
+Isso é útil para **expandir queries de usuários** com termos do vocabulário controlado, melhorando a precisão de sistemas RAG.
+
 ```python
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
