@@ -222,6 +222,39 @@ for r in results:
     print(f"{r.page_content} - {r.metadata['uri']}")
 ```
 
+??? example "Output esperado"
+
+    ```
+    Total de documentos criados: 1623
+
+    # Exemplo de documento (primeiro termo):
+    {
+      "content": "Agricultura, extrativismo e pesca",
+      "metadata": {
+        "uri": "http://vocab.e.gov.br/2011/03/vcge#agricultura-extrativismo-pesca",
+        "path": "VCGE > Agricultura, extrativismo e pesca",
+        "level": 2
+      }
+    }
+
+    # Exemplo de documento (termo profundo - nível 4):
+    {
+      "content": "Armazenamento de alimento",
+      "metadata": {
+        "uri": "http://vocab.e.gov.br/2011/03/vcge#armazenamento-alimento",
+        "path": "VCGE > Agricultura, extrativismo e pesca > Abastecimento > Armazenamento de alimento",
+        "level": 4
+      }
+    }
+
+    # Busca semântica por "agricultura sustentável" (top 5):
+    Agricultura orgânica - http://vocab.e.gov.br/2011/03/vcge#agricultura-organica
+    Agricultura familiar - http://vocab.e.gov.br/2011/03/vcge#agricultura-familiar
+    Agricultura de precisão - http://vocab.e.gov.br/2011/03/vcge#agricultura-precisao
+    Desenvolvimento sustentável - http://vocab.e.gov.br/2011/03/vcge#desenvolvimento-sustentavel
+    Agricultura de subsistência - http://vocab.e.gov.br/2011/03/vcge#agricultura-subsistencia
+    ```
+
 ---
 
 ## Sobre este Projeto
