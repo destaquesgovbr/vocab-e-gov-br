@@ -1,0 +1,74 @@
+site_name: Vocabulários e Ontologias do Governo Eletrônico
+site_description: Espelho do Repositório de Vocabulários e Ontologias do Governo Eletrônico (vocab.e.gov.br)
+site_url: https://destaquesgovbr.github.io/vocab-e-gov-br/
+repo_url: https://github.com/destaquesgovbr/vocab-e-gov-br
+repo_name: destaquesgovbr/vocab-e-gov-br
+docs_dir: docs
+
+theme:
+  name: material
+  language: pt-BR
+  icon:
+    logo: material/book-open-variant
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - def_list
+
+extra_javascript:
+  - https://unpkg.com/alpinejs@3.13.3/dist/cdn.min.js
+  - javascripts/vcge-tree.js
+
+extra_css:
+  - stylesheets/vcge-tree.css
+
+nav:
+  - Home: index.md
+  - Vocabulários:
+    - VCGE 2.0.3: vocabularios/vcge-2.md
+    - VCGE (2011): vocabularios/vcge.md
+    - LOA - Orçamento: vocabularios/loa.md
+    - SIORG: vocabularios/siorg.md
+    - OPS: vocabularios/ops.md
+    - EDGV: vocabularios/edgv.md
+    - SIAFI: vocabularios/siafi.md
+    - SICAF: vocabularios/sicaf.md
+  - Explorador VCGE: explorer.md
+  - Downloads: downloads.md
+  - Sobre: sobre.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/destaquesgovbr/vocab-e-gov-br
