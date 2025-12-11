@@ -67,7 +67,9 @@ nav:
     - EDGV: vocabularios/edgv.md
     - SIAFI: vocabularios/siafi.md
     - SICAF: vocabularios/sicaf.md
-  - Explorador VCGE: explorer.md
+  - Exploradores:
+    - VCGE 2011: vocabularios/vcge-explorer.md
+    - VCGE (geral): explorer.md
   - Downloads: downloads.md
   - Sobre: sobre.md
 
