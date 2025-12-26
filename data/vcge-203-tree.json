@@ -1,0 +1,628 @@
+{
+  "id": "esquema",
+  "label": "VCGE",
+  "uri": "http://vocab.e.gov.br/id/governo#esquema",
+  "children": [
+    {
+      "id": "administracao",
+      "label": "Administração",
+      "uri": "http://vocab.e.gov.br/id/governo#administracao",
+      "children": [
+        {
+          "id": "compras-governamentais",
+          "label": "Compras governamentais",
+          "uri": "http://vocab.e.gov.br/id/governo#compras-governamentais"
+        },
+        {
+          "id": "fiscalizacao-estado",
+          "label": "Fiscalização do Estado",
+          "uri": "http://vocab.e.gov.br/id/governo#fiscalizacao-estado"
+        },
+        {
+          "id": "normalizacao-qualidade",
+          "label": "Normalização e Qualidade",
+          "uri": "http://vocab.e.gov.br/id/governo#normalizacao-qualidade"
+        },
+        {
+          "id": "operacoes-divida-publica",
+          "label": "Operações de dívida pública",
+          "uri": "http://vocab.e.gov.br/id/governo#operacoes-divida-publica"
+        },
+        {
+          "id": "orcamento",
+          "label": "Orçamento",
+          "uri": "http://vocab.e.gov.br/id/governo#orcamento"
+        },
+        {
+          "id": "outros-administracao",
+          "label": "Outros em Administração",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-administracao"
+        },
+        {
+          "id": "patrimonio",
+          "label": "Patrimônio",
+          "uri": "http://vocab.e.gov.br/id/governo#patrimonio"
+        },
+        {
+          "id": "planejamento",
+          "label": "Planejamento ",
+          "uri": "http://vocab.e.gov.br/id/governo#planejamento"
+        },
+        {
+          "id": "recursos-humanos",
+          "label": "Recursos humanos",
+          "uri": "http://vocab.e.gov.br/id/governo#recursos-humanos"
+        },
+        {
+          "id": "servicos-publicos",
+          "label": "Serviços Públicos ",
+          "uri": "http://vocab.e.gov.br/id/governo#servicos-publicos"
+        }
+      ]
+    },
+    {
+      "id": "agropecuaria",
+      "label": "Agropecuária",
+      "uri": "http://vocab.e.gov.br/id/governo#agropecuaria",
+      "children": [
+        {
+          "id": "abastecimento",
+          "label": "Abastecimento",
+          "uri": "http://vocab.e.gov.br/id/governo#abastecimento"
+        },
+        {
+          "id": "defesa-agropecuaria",
+          "label": "Defesa agropecuária",
+          "uri": "http://vocab.e.gov.br/id/governo#defesa-agropecuaria"
+        },
+        {
+          "id": "outros-agropecuaria",
+          "label": "Outros em Agropecuária",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-agropecuaria"
+        },
+        {
+          "id": "producao-agropecuaria",
+          "label": "Produção agropecuária",
+          "uri": "http://vocab.e.gov.br/id/governo#producao-agropecuaria"
+        }
+      ]
+    },
+    {
+      "id": "comercio-servicos",
+      "label": "Comércio e Serviços",
+      "uri": "http://vocab.e.gov.br/id/governo#comercio-servicos",
+      "children": [
+        {
+          "id": "comercio-externo",
+          "label": "Comercio externo",
+          "uri": "http://vocab.e.gov.br/id/governo#comercio-externo"
+        },
+        {
+          "id": "defesa-consumidor",
+          "label": "Defesa do Consumidor",
+          "uri": "http://vocab.e.gov.br/id/governo#defesa-consumidor"
+        },
+        {
+          "id": "outros-comercio-servicos",
+          "label": "Outros em Comércio e serviços",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-comercio-servicos"
+        },
+        {
+          "id": "turismo",
+          "label": "Turismo ",
+          "uri": "http://vocab.e.gov.br/id/governo#turismo"
+        }
+      ]
+    },
+    {
+      "id": "comunicacoes",
+      "label": "Comunicações",
+      "uri": "http://vocab.e.gov.br/id/governo#comunicacoes",
+      "children": [
+        {
+          "id": "comunicacoes-postais",
+          "label": "Comunicações Postais",
+          "uri": "http://vocab.e.gov.br/id/governo#comunicacoes-postais"
+        },
+        {
+          "id": "outros-comunicacoes",
+          "label": "Outros em Comunicações",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-comunicacoes"
+        },
+        {
+          "id": "telecomunicacoes",
+          "label": "Telecomunicações",
+          "uri": "http://vocab.e.gov.br/id/governo#telecomunicacoes"
+        }
+      ]
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "uri": "http://vocab.e.gov.br/id/governo#cultura",
+      "children": [
+        {
+          "id": "difusao-cultural",
+          "label": "Difusão Cultural ",
+          "uri": "http://vocab.e.gov.br/id/governo#difusao-cultural"
+        },
+        {
+          "id": "outros-cultura",
+          "label": "Outros em Cultura",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-cultura"
+        },
+        {
+          "id": "patrimonio-cultural",
+          "label": "Patrimônio Cultural ",
+          "uri": "http://vocab.e.gov.br/id/governo#patrimonio-cultural"
+        }
+      ]
+    },
+    {
+      "id": "defesa-nacional",
+      "label": "Defesa Nacional",
+      "uri": "http://vocab.e.gov.br/id/governo#defesa-nacional",
+      "children": [
+        {
+          "id": "defesa-civil",
+          "label": "Defesa Civil",
+          "uri": "http://vocab.e.gov.br/id/governo#defesa-civil"
+        },
+        {
+          "id": "defesa-militar",
+          "label": "Defesa militar",
+          "uri": "http://vocab.e.gov.br/id/governo#defesa-militar"
+        },
+        {
+          "id": "outros-defesa-nacional",
+          "label": "Outros em Defesa Nacional",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-defesa-nacional"
+        }
+      ]
+    },
+    {
+      "id": "economia-financas",
+      "label": "Economia e Finanças",
+      "uri": "http://vocab.e.gov.br/id/governo#economia-financas",
+      "children": [
+        {
+          "id": "outros-economia-financas",
+          "label": "Outros em Economia e Finanças",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-economia-financas"
+        },
+        {
+          "id": "politica-economica",
+          "label": "Politica econômica",
+          "uri": "http://vocab.e.gov.br/id/governo#politica-economica"
+        },
+        {
+          "id": "sistema-financeiro",
+          "label": "Sistema Financeiro ",
+          "uri": "http://vocab.e.gov.br/id/governo#sistema-financeiro"
+        }
+      ]
+    },
+    {
+      "id": "educacao",
+      "label": "Educação ",
+      "uri": "http://vocab.e.gov.br/id/governo#educacao",
+      "children": [
+        {
+          "id": "educacao-basica",
+          "label": "Educação básica",
+          "uri": "http://vocab.e.gov.br/id/governo#educacao-basica"
+        },
+        {
+          "id": "educacao-profissionalizante",
+          "label": "Educação profissionalizante ",
+          "uri": "http://vocab.e.gov.br/id/governo#educacao-profissionalizante"
+        },
+        {
+          "id": "educacao-superior",
+          "label": "Educação superior ",
+          "uri": "http://vocab.e.gov.br/id/governo#educacao-superior"
+        },
+        {
+          "id": "outros-educacao",
+          "label": "Outros em Educação",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-educacao"
+        }
+      ]
+    },
+    {
+      "id": "energia",
+      "label": "Energia",
+      "uri": "http://vocab.e.gov.br/id/governo#energia",
+      "children": [
+        {
+          "id": "combustiveis",
+          "label": "Combustíveis",
+          "uri": "http://vocab.e.gov.br/id/governo#combustiveis"
+        },
+        {
+          "id": "energia-eletrica",
+          "label": "Energia elétrica",
+          "uri": "http://vocab.e.gov.br/id/governo#energia-eletrica"
+        },
+        {
+          "id": "outros-energia",
+          "label": "Outros em Energia",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-energia"
+        }
+      ]
+    },
+    {
+      "id": "esporte-lazer",
+      "label": "Esporte e Lazer",
+      "uri": "http://vocab.e.gov.br/id/governo#esporte-lazer",
+      "children": [
+        {
+          "id": "esporte-comunitario",
+          "label": "Esporte comunitário",
+          "uri": "http://vocab.e.gov.br/id/governo#esporte-comunitario"
+        },
+        {
+          "id": "esporte-profissional",
+          "label": "Esporte profissional",
+          "uri": "http://vocab.e.gov.br/id/governo#esporte-profissional"
+        },
+        {
+          "id": "lazer",
+          "label": "Lazer",
+          "uri": "http://vocab.e.gov.br/id/governo#lazer"
+        },
+        {
+          "id": "outros-esporte-lazer",
+          "label": "Outros em Esporte e Lazer",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-esporte-lazer"
+        }
+      ]
+    },
+    {
+      "id": "habitacao",
+      "label": "Habitação",
+      "uri": "http://vocab.e.gov.br/id/governo#habitacao",
+      "children": [
+        {
+          "id": "habitacao-rural",
+          "label": "Habitação Rural",
+          "uri": "http://vocab.e.gov.br/id/governo#habitacao-rural"
+        },
+        {
+          "id": "habitacao-urbana",
+          "label": "Habitação Urbana",
+          "uri": "http://vocab.e.gov.br/id/governo#habitacao-urbana"
+        },
+        {
+          "id": "outros-habitacao",
+          "label": "Outros em Habitação",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-habitacao"
+        }
+      ]
+    },
+    {
+      "id": "industria",
+      "label": "Indústria",
+      "uri": "http://vocab.e.gov.br/id/governo#industria",
+      "children": [
+        {
+          "id": "mineracao",
+          "label": "Mineração",
+          "uri": "http://vocab.e.gov.br/id/governo#mineracao"
+        },
+        {
+          "id": "outros-industria",
+          "label": "Outros em Industria",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-industria"
+        },
+        {
+          "id": "producao-industrial",
+          "label": "Produção Industrial",
+          "uri": "http://vocab.e.gov.br/id/governo#producao-industrial"
+        },
+        {
+          "id": "propriedade-industrial",
+          "label": "Propriedade Industrial",
+          "uri": "http://vocab.e.gov.br/id/governo#propriedade-industrial"
+        }
+      ]
+    },
+    {
+      "id": "meio-ambiente",
+      "label": "Meio ambiente ",
+      "uri": "http://vocab.e.gov.br/id/governo#meio-ambiente",
+      "children": [
+        {
+          "id": "agua",
+          "label": "Água",
+          "uri": "http://vocab.e.gov.br/id/governo#agua"
+        },
+        {
+          "id": "biodiversidade",
+          "label": "Biodiversidade",
+          "uri": "http://vocab.e.gov.br/id/governo#biodiversidade"
+        },
+        {
+          "id": "clima",
+          "label": "Clima",
+          "uri": "http://vocab.e.gov.br/id/governo#clima"
+        },
+        {
+          "id": "outros-meio-ambiente",
+          "label": "Outros em Meio Ambiente",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-meio-ambiente"
+        },
+        {
+          "id": "preservacao-conservacao-ambiental",
+          "label": "Preservação e Conservação Ambiental",
+          "uri": "http://vocab.e.gov.br/id/governo#preservacao-conservacao-ambiental"
+        }
+      ]
+    },
+    {
+      "id": "pesquisa-desenvolvimento",
+      "label": "Pesquisa e Desenvolvimento",
+      "uri": "http://vocab.e.gov.br/id/governo#pesquisa-desenvolvimento",
+      "children": [
+        {
+          "id": "difusao",
+          "label": "Difusão",
+          "uri": "http://vocab.e.gov.br/id/governo#difusao"
+        },
+        {
+          "id": "outros-pesquisa-desenvolvimento",
+          "label": "Outros em Pesquisa e Desenvolvimento",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-pesquisa-desenvolvimento"
+        }
+      ]
+    },
+    {
+      "id": "previdencia-social",
+      "label": "Previdência Social",
+      "uri": "http://vocab.e.gov.br/id/governo#previdencia-social",
+      "children": [
+        {
+          "id": "outros-previdencia",
+          "label": "Outros em Previdência",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-previdencia"
+        },
+        {
+          "id": "previdencia-basica",
+          "label": "Previdência Básica",
+          "uri": "http://vocab.e.gov.br/id/governo#previdencia-basica"
+        },
+        {
+          "id": "previdencia-complementar",
+          "label": "Previdência Complementar",
+          "uri": "http://vocab.e.gov.br/id/governo#previdencia-complementar"
+        }
+      ]
+    },
+    {
+      "id": "protecao-social",
+      "label": "Proteção Social",
+      "uri": "http://vocab.e.gov.br/id/governo#protecao-social",
+      "children": [
+        {
+          "id": "assistencia-crianca-adolescente",
+          "label": "Assistência à Criança e ao Adolescente",
+          "uri": "http://vocab.e.gov.br/id/governo#assistencia-crianca-adolescente"
+        },
+        {
+          "id": "assistencia-idoso",
+          "label": "Assistência ao Idoso",
+          "uri": "http://vocab.e.gov.br/id/governo#assistencia-idoso"
+        },
+        {
+          "id": "assistencia-portador-deficiencia",
+          "label": "Assistência ao Portador de Deficiência",
+          "uri": "http://vocab.e.gov.br/id/governo#assistencia-portador-deficiencia"
+        },
+        {
+          "id": "cidadania",
+          "label": "Cidadania",
+          "uri": "http://vocab.e.gov.br/id/governo#cidadania"
+        },
+        {
+          "id": "combate-desigualdade",
+          "label": "Combate a desigualdade",
+          "uri": "http://vocab.e.gov.br/id/governo#combate-desigualdade"
+        },
+        {
+          "id": "outros-protecao-social",
+          "label": "Outros em Proteção Social",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-protecao-social"
+        }
+      ]
+    },
+    {
+      "id": "relacoes-internacionais",
+      "label": "Relações Internacionais",
+      "uri": "http://vocab.e.gov.br/id/governo#relacoes-internacionais",
+      "children": [
+        {
+          "id": "cooperacao-internacional",
+          "label": "Cooperação Internacional",
+          "uri": "http://vocab.e.gov.br/id/governo#cooperacao-internacional"
+        },
+        {
+          "id": "outros-relacoes-internacionais",
+          "label": "Outros em Relações Internacionais",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-relacoes-internacionais"
+        },
+        {
+          "id": "relacoes-diplomaticas",
+          "label": "Relações Diplomáticas",
+          "uri": "http://vocab.e.gov.br/id/governo#relacoes-diplomaticas"
+        }
+      ]
+    },
+    {
+      "id": "saneamento",
+      "label": "Saneamento",
+      "uri": "http://vocab.e.gov.br/id/governo#saneamento",
+      "children": [
+        {
+          "id": "outros-saneamento",
+          "label": "Outros em Saneamento",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-saneamento"
+        },
+        {
+          "id": "saneamento-basico-rural",
+          "label": "Saneamento Básico Rural",
+          "uri": "http://vocab.e.gov.br/id/governo#saneamento-basico-rural"
+        },
+        {
+          "id": "saneamento-basico-urbano",
+          "label": "Saneamento Básico Urbano",
+          "uri": "http://vocab.e.gov.br/id/governo#saneamento-basico-urbano"
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "uri": "http://vocab.e.gov.br/id/governo#saude",
+      "children": [
+        {
+          "id": "assistencia-hospitalar-ambulatorial",
+          "label": "Assistência Hospitalar e Ambulatorial",
+          "uri": "http://vocab.e.gov.br/id/governo#assistencia-hospitalar-ambulatorial"
+        },
+        {
+          "id": "atendimento-basico",
+          "label": "Atendimento básico ",
+          "uri": "http://vocab.e.gov.br/id/governo#atendimento-basico"
+        },
+        {
+          "id": "combate-epidemias",
+          "label": "Combate a epidemias",
+          "uri": "http://vocab.e.gov.br/id/governo#combate-epidemias"
+        },
+        {
+          "id": "medicamentos-aparelhos",
+          "label": "Medicamentos e aparelhos",
+          "uri": "http://vocab.e.gov.br/id/governo#medicamentos-aparelhos"
+        },
+        {
+          "id": "outros-saude",
+          "label": "Outros em Saúde",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-saude"
+        },
+        {
+          "id": "vigilancia-sanitaria",
+          "label": "Vigilância Sanitária",
+          "uri": "http://vocab.e.gov.br/id/governo#vigilancia-sanitaria"
+        }
+      ]
+    },
+    {
+      "id": "seguranca-ordem-publica",
+      "label": "Segurança e Ordem Pública",
+      "uri": "http://vocab.e.gov.br/id/governo#seguranca-ordem-publica",
+      "children": [
+        {
+          "id": "defesa-civil",
+          "label": "Defesa Civil",
+          "uri": "http://vocab.e.gov.br/id/governo#defesa-civil"
+        },
+        {
+          "id": "outros-seguranca-ordem-publica",
+          "label": "Outros em Segurança e Ordem Pública",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-seguranca-ordem-publica"
+        },
+        {
+          "id": "policiamento",
+          "label": "Policiamento",
+          "uri": "http://vocab.e.gov.br/id/governo#policiamento"
+        }
+      ]
+    },
+    {
+      "id": "trabalho",
+      "label": "Trabalho ",
+      "uri": "http://vocab.e.gov.br/id/governo#trabalho",
+      "children": [
+        {
+          "id": "empregabilidade",
+          "label": "Empregabilidade",
+          "uri": "http://vocab.e.gov.br/id/governo#empregabilidade"
+        },
+        {
+          "id": "fomento-trabalho",
+          "label": "Fomento ao Trabalho",
+          "uri": "http://vocab.e.gov.br/id/governo#fomento-trabalho"
+        },
+        {
+          "id": "outros-trabalho",
+          "label": "Outros em Trabalho",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-trabalho"
+        },
+        {
+          "id": "protecao-beneficios-trabalhador",
+          "label": "Proteção e Benefícios ao Trabalhador",
+          "uri": "http://vocab.e.gov.br/id/governo#protecao-beneficios-trabalhador"
+        },
+        {
+          "id": "relacoes-trabalho",
+          "label": "Relações de Trabalho",
+          "uri": "http://vocab.e.gov.br/id/governo#relacoes-trabalho"
+        }
+      ]
+    },
+    {
+      "id": "transportes",
+      "label": "Transportes",
+      "uri": "http://vocab.e.gov.br/id/governo#transportes",
+      "children": [
+        {
+          "id": "outros-transporte",
+          "label": "Outros em Transporte",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-transporte"
+        },
+        {
+          "id": "transporte-aereo",
+          "label": "Transporte Aéreo",
+          "uri": "http://vocab.e.gov.br/id/governo#transporte-aereo"
+        },
+        {
+          "id": "transporte-ferroviario",
+          "label": "Transporte Ferroviário",
+          "uri": "http://vocab.e.gov.br/id/governo#transporte-ferroviario"
+        },
+        {
+          "id": "transporte-hidroviario",
+          "label": "Transporte Hidroviário",
+          "uri": "http://vocab.e.gov.br/id/governo#transporte-hidroviario"
+        },
+        {
+          "id": "transporte-rodoviario",
+          "label": "Transporte Rodoviário",
+          "uri": "http://vocab.e.gov.br/id/governo#transporte-rodoviario"
+        }
+      ]
+    },
+    {
+      "id": "urbanismo",
+      "label": "Urbanismo ",
+      "uri": "http://vocab.e.gov.br/id/governo#urbanismo",
+      "children": [
+        {
+          "id": "infraestrutura-urbana",
+          "label": "Infraestrutura Urbana",
+          "uri": "http://vocab.e.gov.br/id/governo#infraestrutura-urbana"
+        },
+        {
+          "id": "outros-urbanismo",
+          "label": "Outros em Urbanismo",
+          "uri": "http://vocab.e.gov.br/id/governo#outros-urbanismo"
+        },
+        {
+          "id": "servicos-urbanos",
+          "label": "Serviços Urbanos",
+          "uri": "http://vocab.e.gov.br/id/governo#servicos-urbanos"
+        }
+      ]
+    }
+  ]
+}
