@@ -1,6 +1,6 @@
 site_name: Vocabulários e Ontologias do Governo Eletrônico
 site_description: Espelho do Repositório de Vocabulários e Ontologias do Governo Eletrônico (vocab.e.gov.br)
-site_url: https://destaquesgovbr.github.io/vocab-e-gov-br/
+site_url: https://vocab.e.gov.br/
 repo_url: https://github.com/destaquesgovbr/vocab-e-gov-br
 repo_name: destaquesgovbr/vocab-e-gov-br
 docs_dir: docs

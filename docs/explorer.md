@@ -1,6 +1,6 @@
 # Explorador VCGE 2.0.3
 
-<meta name="base-url" content="/vocab-e-gov-br/">
+<meta name="base-url" content="/">
 <meta name="vcge-data" content="vcge-203-tree.json">
 
 Navegue pela árvore hierárquica do **VCGE 2.0.3** (116 termos) - versão mais recente e simplificada.

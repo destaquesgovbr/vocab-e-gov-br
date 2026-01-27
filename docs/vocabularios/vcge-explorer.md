@@ -1,6 +1,6 @@
 # Explorador VCGE 2011
 
-<meta name="base-url" content="/vocab-e-gov-br/">
+<meta name="base-url" content="/">
 
 Navegue pela árvore hierárquica do **VCGE versão 2011** (1623 termos).
 
